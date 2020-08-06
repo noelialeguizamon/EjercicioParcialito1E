@@ -53,10 +53,13 @@ function mostrar() {
 			alert("categoria incorrecta, elija entre lacteos, almacen, bebidas o limpieza");
 		}
 	}
-	while (categoriaActual != "salir");
+	while (categoriaActual != "no");
 
-	alert("el articulo mas caro: " + nombreArtMasCaro + "\n lacteo mas caro: " + nombreLacteoMasCaro + "\n la cantidad de bebidas son: " + cantbebidas);
-
+	//alert("el articulo mas caro: " + nombreArtMasCaro + "\n lacteo mas caro: " + nombreLacteoMasCaro + "\n la cantidad de bebidas son: " + cantbebidas);
+	document.write("el articulo con mayor precio es: " + nombreArtMasCaro + " con un costo de: " + precioArtMasCaro+"<br>" );
+	document.write("el lacteo de mayor precio es: " + nombreLacteoMasCaro + " su costo es: " + precioLacteoMasCaro + "<br>");
+	document.write("la cantidad de bebibas es: " + cantbebidas);
 
 
 }
+
