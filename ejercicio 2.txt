@@ -1,0 +1,11 @@
+ 
+{
+	let contador;
+	let articulo;
+	let categoria;
+	let precio;
+	let respuesta = "si";
+	
+	do
+	{ articulo = prompt ("ingrese nombre del articulo: ");
+	
