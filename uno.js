@@ -39,10 +39,10 @@ function mostrar()
 	else if (temperaturaCorporal >= 38){
 		alert("permiso no otorgado");
 	}
-	else if (sintomas == "Tos" && temperaturaCorporal <=37){
+	else if (sintomas == "Tos"){
 		alert("permiso otorgado. por favor no se olvide de toser sobre su codo");
 	}
-	else if((sintomas == "PerdidaOlfato" || sintomas == "PerdidaGusto") && (temperaturaCorporal < 38) ){
+	else if(sintomas == "PerdidaOlfato" || sintomas == "PerdidaGusto") ){
 		alert("permiso otorgado");
 	}
 	else if (sintomas == "DificultadParaRespirar"){
